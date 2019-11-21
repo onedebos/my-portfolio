@@ -1,0 +1,107 @@
+body {
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
+}
+
+body .container {
+  position: relative;
+  min-height: 100vh;
+}
+
+body .main-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+body .main-wrapper .name-title {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+body .main-wrapper .wrapper-left {
+  margin: 3em 1em 1em 10em;
+}
+
+body .main-wrapper .city {
+  font-style: italic;
+}
+
+body .main-wrapper .wrapper-right {
+  margin: 6em 1em 1em 10em;
+  background-color: yellow;
+}
+
+body .main-wrapper .wrapper-right .above-products {
+  margin: 80% 20% 0 20%;
+}
+
+@media (min-width: 968px) {
+  body .main-wrapper .wrapper-right .above-products {
+    margin: 18% 20% 0 20%;
+  }
+}
+
+body .main-wrapper .wrapper-right .products {
+  margin: 0% 20% 0 20%;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+@media (min-width: 968px) {
+  body .main-wrapper .wrapper-right .products {
+    margin: 0em 0em 0 5.2em;
+  }
+}
+
+body .main-wrapper .profiles {
+  margin-top: 5em;
+}
+
+body h3 {
+  font-size: 2em;
+}
+
+body p {
+  font-size: 1em;
+}
+
+body a {
+  color: black;
+}
+
+body .grid-free {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+}
+
+body .full-text {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 2.5rem;
+  margin-left: .9em;
+  font-size: 10em;
+}
+
+@media (max-width: 968px) {
+  body .full-text {
+    visibility: hidden;
+  }
+}
+
+body .below-products {
+  position: absolute;
+  height: 2.5rem;
+  font-size: 5em;
+  text-align: center;
+}
+
+@media (min-width: 968px) {
+  body .below-products {
+    visibility: hidden;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
