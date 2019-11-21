@@ -1,0 +1,51 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+h3{
+    font-size:2em;
+}
+
+p{
+    font-size:1em;
+}
+.wrapper-left{
+    /* background-color: blue; */
+    margin: 3em 1em 1em 10em;
+}
+
+.wrapper-right{
+    background-color: chartreuse;
+}
+
+.main-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a{
+
+    color:black;
+}
+
+.profiles{
+    margin-top:5em;
+}
+
+.grid-free{
+display:grid;
+grid-auto-columns: 1fr;
+}
+
+.products{
+    margin:2% 50%;
+    font-size:2em;
+}
+
+.full-text{
+    font-size:5em;
+}
+
+.city{
+    font-style: italic;
+}
