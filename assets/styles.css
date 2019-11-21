@@ -1,6 +1,5 @@
 body {
   font-family: 'Playfair Display', serif;
-  overflow: hidden;
 }
 
 body .container {
@@ -59,6 +58,43 @@ body .main-wrapper .profiles {
   margin-top: 5em;
 }
 
+body .main-wrapper .below-products {
+  position: absolute;
+  line-height: 1.5;
+  font-size: 1em;
+  margin-top: 1.6em;
+  margin-left: 10vw;
+  font-size: 5em;
+}
+
+@media (min-width: 968px) {
+  body .main-wrapper .below-products {
+    visibility: hidden;
+  }
+}
+
+body .main-wrapper .below-products-1 {
+  position: absolute;
+  line-height: 1.5;
+  font-size: 1em;
+  margin-top: 2.5em;
+  margin-left: 5vw;
+  text-align: center;
+  font-size: 5em;
+}
+
+@media (min-width: 968px) {
+  body .main-wrapper .below-products-1 {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+}
+
 body h3 {
   font-size: 2em;
 }
@@ -78,29 +114,19 @@ body .grid-free {
 }
 
 body .full-text {
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
   height: 2.5rem;
-  margin-left: .9em;
-  font-size: 10em;
+  font-size: 12vw;
+  display: block;
+  text-align: center;
+  font-weight: lighter;
+  line-height: 1.5;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 @media (max-width: 968px) {
   body .full-text {
-    visibility: hidden;
-  }
-}
-
-body .below-products {
-  position: absolute;
-  height: 2.5rem;
-  font-size: 5em;
-  text-align: center;
-}
-
-@media (min-width: 968px) {
-  body .below-products {
     visibility: hidden;
   }
 }
