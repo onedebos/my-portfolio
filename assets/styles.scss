@@ -11,16 +11,15 @@ body{
         display:grid;
         grid-template-columns: 1fr 2fr;
 
-        .name-title{
-            font-size: 2.5em;
-            font-weight: 500;
-        }
-
-
         .wrapper-left{
             margin: 3em 1em 1em 10em;
-        }
+            .name-title{
+                font-size: 2.5em;
+                font-weight: 500;
+            }
 
+        }
+        
         .city{
             font-style: italic;
         }
@@ -115,8 +114,5 @@ body{
             visibility: hidden;
         }
     }
-
-    
-
 }
 
