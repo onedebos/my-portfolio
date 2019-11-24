@@ -1,3 +1,4 @@
+@import url(/home/adebola/Documents/microverse/portfolio/portfolio-fast/assets/_reset.css);
 body {
   font-family: "Playfair Display", serif;
 }
@@ -148,13 +149,10 @@ body .hearts {
     visibility: hidden;
   }
   .above-products {
-    margin: 5em 5em 0em 5em;
-  }
-  .pink-text {
-    font-family: 'Roboto', sans-serif;
+    margin: 5em 5em 0em 2.5em;
   }
   .products {
-    margin: 0em 1em 5em 2em;
+    margin: 0em 1em 5em 1em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
