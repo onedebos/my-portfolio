@@ -1,98 +1,5 @@
 body {
-  font-family: 'Playfair Display', serif;
-}
-
-body .container {
-  position: relative;
-  min-height: 100vh;
-}
-
-body .main-wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
-}
-
-body .main-wrapper .name-title {
-  font-size: 2.5em;
-  font-weight: 500;
-}
-
-body .main-wrapper .wrapper-left {
-  margin: 3em 1em 1em 10em;
-}
-
-body .main-wrapper .city {
-  font-style: italic;
-}
-
-body .main-wrapper .wrapper-right {
-  margin: 6em 1em 1em 10em;
-  background-color: yellow;
-}
-
-body .main-wrapper .wrapper-right .above-products {
-  margin: 80% 20% 0 20%;
-}
-
-@media (min-width: 968px) {
-  body .main-wrapper .wrapper-right .above-products {
-    margin: 18% 20% 0 20%;
-  }
-}
-
-body .main-wrapper .wrapper-right .products {
-  margin: 0% 20% 0 20%;
-  font-size: 2.5em;
-  font-weight: 500;
-}
-
-@media (min-width: 968px) {
-  body .main-wrapper .wrapper-right .products {
-    margin: 0em 0em 0 5.2em;
-  }
-}
-
-body .main-wrapper .profiles {
-  margin-top: 5em;
-}
-
-body .main-wrapper .below-products {
-  position: absolute;
-  line-height: 1.5;
-  font-size: 1em;
-  margin-top: 1.6em;
-  margin-left: 10vw;
-  font-size: 5em;
-}
-
-@media (min-width: 968px) {
-  body .main-wrapper .below-products {
-    visibility: hidden;
-  }
-}
-
-body .main-wrapper .below-products-1 {
-  position: absolute;
-  line-height: 1.5;
-  font-size: 1em;
-  margin-top: 2.5em;
-  margin-left: 5vw;
-  text-align: center;
-  font-size: 5em;
-}
-
-@media (min-width: 968px) {
-  body .main-wrapper .below-products-1 {
-    visibility: hidden;
-  }
-}
-
-@media (min-width: 768px) {
-  body {
-    overflow: hidden;
-  }
+  font-family: "Playfair Display", serif;
 }
 
 body h3 {
@@ -107,13 +14,109 @@ body a {
   color: black;
 }
 
-body .grid-free {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-columns: 1fr;
+body .hearts {
+  color: red;
 }
 
-body .full-text {
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.main-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+.wrapper-left {
+  margin: 3em 1em 1em 10em;
+}
+
+.name-title {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.city {
+  font-style: italic;
+}
+
+.wrapper-right {
+  margin: 6em 1em 1em 10em;
+  background-color: yellow;
+}
+
+.above-products {
+  margin: 80% 20% 0 20%;
+}
+
+@media (min-width: 968px) {
+  .above-products {
+    margin: 18% 20% 0 20%;
+  }
+}
+
+.products {
+  margin: 0% 20% 0 20%;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+@media (min-width: 968px) {
+  .products {
+    margin: 0em 0em 0 5.2em;
+  }
+}
+
+.profiles {
+  margin-top: 5em;
+}
+
+.below-products {
+  position: absolute;
+  line-height: 1.5;
+  font-size: 1em;
+  margin-top: 1.6em;
+  margin-left: 10vw;
+  font-size: 5em;
+}
+
+@media (min-width: 968px) {
+  .below-products {
+    visibility: hidden;
+  }
+}
+
+.below-products-1 {
+  position: absolute;
+  line-height: 1.5;
+  font-size: 1em;
+  margin-top: 2.5em;
+  margin-left: 5vw;
+  text-align: center;
+  font-size: 5em;
+}
+
+@media (min-width: 968px) {
+  .below-products-1 {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  overflow-x: hidden;
+}
+
+.grid-free {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.full-text {
   height: 2.5rem;
   font-size: 12vw;
   display: block;
@@ -126,8 +129,32 @@ body .full-text {
 }
 
 @media (max-width: 968px) {
-  body .full-text {
+  .full-text {
     visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-wrapper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .wrapper-left,
+  .wrapper-right, .pink-div {
+    margin: 0em 5em;
+  }
+  .below-products,
+  .below-products-1 {
+    visibility: hidden;
+  }
+  .above-products {
+    margin: 5em 5em 0em 5em;
+  }
+  .pink-text {
+    font-family: 'Roboto', sans-serif;
+  }
+  .products {
+    margin: 0em 1em 5em 2em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
