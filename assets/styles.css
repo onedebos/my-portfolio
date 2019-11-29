@@ -123,8 +123,8 @@ body .hearts {
   display: block;
   text-align: center;
   font-weight: lighter;
-  line-height: 0;
-  position: static;
+  line-height: 1.5;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
