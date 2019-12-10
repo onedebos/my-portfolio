@@ -137,3 +137,28 @@ body {
     margin: 0em 1em 5em 1em;
   }
 }
+
+@media (min-width: 1380px) and (max-width:1700px){
+  .above-products{
+    margin:8em 0 0 3em;
+    padding-left:2em;
+  }
+
+  .products{
+    margin: 0em 0 0 2em;
+  }
+
+  .wrapper-right{
+    margin: 4em 2em;
+  }
+
+  .wrapper-left{
+    margin:1em 4.5em;
+  }
+  .grid-free{
+    margin-top:5em;
+    padding-top:5em;
+  }
+
+  
+}
