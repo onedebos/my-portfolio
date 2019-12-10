@@ -1,6 +1,7 @@
 @import url(/home/adebola/Documents/microverse/portfolio/portfolio-fast/assets/_reset.css);
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, serif;
+  overflow-x: hidden;
 }
 
 body h3 {
@@ -106,10 +107,6 @@ body .hearts {
   }
 }
 
-@media (min-width: 768px) {
-  overflow-x: hidden;
-}
-
 .grid-free {
   display: -ms-grid;
   display: grid;
@@ -165,7 +162,7 @@ body .hearts {
     margin: 0em 0 0 2em;
   }
   .wrapper-right {
-    margin: 4em 2em;
+    margin: 6em 2em 2em 2em;
   }
   .wrapper-left {
     margin: 1em 4.5em;
@@ -173,6 +170,36 @@ body .hearts {
   .grid-free {
     margin-top: 5em;
     padding-top: 5em;
+  }
+}
+
+@media (max-width: 380px) {
+  .wrapper-left {
+    margin: 1em 4em 1em 4em;
+  }
+  .main-wrapper {
+    width: 350px;
+  }
+  .wrapper-right {
+    margin: 1em 1.5em 0em 1.5em;
+  }
+  .profiles {
+    margin-top: 1em;
+  }
+  body {
+    overflow-x: hidden;
+    font-size: .8em;
+  }
+  .products {
+    margin-left: 1.5em;
+    font-weight: 500;
+    font-size: 2em;
+  }
+  .grid-free {
+    display: none;
+  }
+  .full-text {
+    display: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */
