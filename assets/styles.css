@@ -1,6 +1,7 @@
 @import url(/home/adebola/Documents/microverse/portfolio/portfolio-fast/assets/_reset.css);
 body {
-  font-family: "Playfair Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, serif;
+  font-family: "Playfair Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, serif;
   overflow-x: hidden;
 }
 
@@ -9,7 +10,7 @@ body h3 {
 }
 
 body p {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 body a {
@@ -29,7 +30,7 @@ body .hearts {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 .wrapper-left {
@@ -46,10 +47,45 @@ body .hearts {
 }
 
 .wrapper-right {
-  margin: 6em 1em 1em 10em;
+  margin: 3em 1em 1em 10em;
   background-color: yellow;
+  padding-bottom: 2em;
 }
 
+.project-3,
+.project-4 {
+  margin-top: 1.2em;
+}
+
+.project-img {
+  object-fit: contain;
+  width: 400px;
+  height: 400px;
+}
+
+.projects-grid {
+  margin-top: -1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.project-name {
+  margin: -2.5em;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.project-name-1 {
+  margin-top: -2.5em;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.project-title,
+.project-title-1 {
+  font-weight: normal;
+}
 .above-products {
   margin: 80% 20% 0 20%;
 }
@@ -111,7 +147,7 @@ body .hearts {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
 }
 
 .full-text {
@@ -135,10 +171,11 @@ body .hearts {
 @media (max-width: 768px) {
   .main-wrapper {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .wrapper-left,
-  .wrapper-right, .pink-div {
+  .wrapper-right,
+  .pink-div {
     margin: 0em 5em;
   }
   .below-products,
@@ -188,7 +225,7 @@ body .hearts {
   }
   body {
     overflow-x: hidden;
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .products {
     margin-left: 1.5em;
