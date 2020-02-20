@@ -86,9 +86,6 @@ body .hearts {
 .project-title-1 {
   font-weight: normal;
 }
-.above-products {
-  margin: 80% 20% 0 20%;
-}
 
 @media (min-width: 968px) {
   .above-products {
@@ -210,21 +207,30 @@ body .hearts {
   }
 }
 
-@media (max-width: 380px) {
+@media (min-width: 350px) and (max-width: 380px) {
+  .footer {
+    background-color: purple;
+    padding: 2em;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+  }
   .wrapper-left {
+    width: 70vw;
     margin: 1em 4em 1em 4em;
   }
   .main-wrapper {
-    width: 350px;
+    grid-template-columns: 1fr;
   }
   .wrapper-right {
-    margin: 1em 1.5em 0em 1.5em;
+    width: 100vw;
+    margin: 1em 0 0 0;
   }
   .profiles {
     margin-top: 1em;
   }
   body {
-    overflow-x: hidden;
+    margin: 0;
     font-size: 0.8em;
   }
   .products {
@@ -237,6 +243,26 @@ body .hearts {
   }
   .full-text {
     display: none;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .project-name {
+    margin: -1.5em;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+
+  .project-name-1 {
+    margin: -1.5em;
+    font-weight: 600;
+    font-size: 1.2em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
