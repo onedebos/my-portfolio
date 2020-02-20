@@ -209,7 +209,7 @@ body .hearts {
   }
 }
 
-@media (min-width: 350px) and (max-width: 380px) {
+@media (min-width: 350px) and (max-width: 415px) {
   .footer {
     background-color: purple;
     padding: 2em;
@@ -254,22 +254,26 @@ body .hearts {
   .project-img {
     width: 300px;
     height: 300px;
+    margin-top: -0.8em;
   }
 
+  .project-img-1 {
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+    margin-top: -2em;
+    margin-bottom: 1em;
+  }
   .project-name {
-    margin: -1.5em;
+    margin: -1em;
     font-weight: 600;
     font-size: 1.2em;
   }
 
   .project-name-1 {
-    margin: -1.5em;
+    margin-top: 3em;
     font-weight: 600;
     font-size: 1.2em;
-  }
-
-  .aa {
-    font-weight: 600;
   }
 }
 /*# sourceMappingURL=styles.css.map */
