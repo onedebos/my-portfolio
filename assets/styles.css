@@ -21,6 +21,10 @@ body .hearts {
   color: red;
 }
 
+.footer {
+  visibility: hidden;
+}
+
 .container {
   position: relative;
   min-height: 100vh;
@@ -141,10 +145,8 @@ body .hearts {
 }
 
 .grid-free {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
+  bottom: 0;
+  position: relative;
 }
 
 .full-text {
@@ -202,8 +204,8 @@ body .hearts {
     margin: 1em 4.5em;
   }
   .grid-free {
-    margin-top: 5em;
-    padding-top: 5em;
+    position: fixed;
+    bottom: 0;
   }
 }
 
@@ -214,6 +216,7 @@ body .hearts {
     color: white;
     text-align: center;
     font-weight: 700;
+    visibility: visible;
   }
   .wrapper-left {
     width: 70vw;
