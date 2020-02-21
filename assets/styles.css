@@ -53,18 +53,19 @@ body .hearts {
 .wrapper-right {
   margin: 3em 1em 1em 10em;
   background-color: yellow;
-  padding-bottom: 2em;
 }
 
 .project-3,
 .project-4 {
-  margin-top: 1.2em;
+  margin-top: -3em;
 }
 
-.project-img {
+.project-img,
+.project-img-1 {
   object-fit: contain;
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
+  margin-top: -2em;
 }
 
 .projects-grid {
@@ -75,13 +76,13 @@ body .hearts {
 }
 
 .project-name {
-  margin: -2.5em;
+  margin-top: 2em;
   font-weight: 600;
   font-size: 1.2em;
 }
 
 .project-name-1 {
-  margin-top: -2.5em;
+  margin-top: 2em;
   font-weight: 600;
   font-size: 1.2em;
 }
@@ -274,6 +275,11 @@ body .hearts {
     margin-top: 3em;
     font-weight: 600;
     font-size: 1.2em;
+  }
+
+  .project-3,
+  .project-4 {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */
