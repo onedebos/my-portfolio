@@ -1,23 +1,51 @@
 # Portfolio
 
-Here's a portfolio website for Adebola Adeniran(myself).
+> Original portfolio written in HTML and CSS.
 
-## Written in
+![screenshot](./app_screenshot.png)
 
-    - HTML
-    - CSS
-    - SASS
+## Built With
+- HTML
+- CSS
 
-## Support
+## Live
 
-    - cloudinary
-    - font-awesome
-    - CSS grids implemented
+[Live Link](https://onedebos.github.io/my-portfolio/)
 
-## Written by
+## Getting Started
 
-Adebola Adeniran
+**To get started, follow the instructions below**
 
-## Live site
+To get a local copy up and running follow these steps.
 
-[Here](https://onedebos.github.io/my-portfolio/)
+- git clone this repo
+
+```
+git clone https://github.com/onedebos/my-portfolio.git
+```
+
+- cd into the folder
+- start your live-server
+
+## Author
+
+👤 **Adebola**
+
+- Github: [@githubhandle](https://github.com/onedebos)
+- Twitter: [@twitterhandle](https://twitter.com/debosthefirst)
+- Linkedin: [linkedin](https://www.linkedin.com/in/adebola-niran/)
+- Portfolio: [Website](https://elegant-borg-4081b7.netlify.com/#)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
